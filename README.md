@@ -1,5 +1,4 @@
 # Programacao_C
-Atividades feitas no 1 semestre, em programação de computadores - todas na linguagem C
 
 
 Atividade Avaliativa (A1) | Programação de Computadores
@@ -23,6 +22,11 @@ Sobre a utilização das funcionalidades e comandos vistos e estudados durantes 
 → (5) Além das necessidades de desenvolvimento solicitadas no documento do projeto que deveriam ser respeitadas e atendidas, a equipe implementou um sistema de retorno (novas tentativas) em duas etapas diferentes do código, sendo possível executar esta ação após digitar um número negativo no deslizamento e/ou executá-la ao final da abertura do cofre, isto é, ao encontrar a combinação correta. Para isso, foi necessário utilizar um comando estudado também durante as aulas da disciplina de Programação de Computadores do curso, sendo ele o comando “switch”, o qual necessita, por sua vez, neste caso, de duas variáveis: “return_option” e “closure_option”, responsáveis, respectivamente, pela execução com números negativos e ao final da execução. Ambas apresentam a mesma estrutura de código, sendo esta representada por uma série de mensagens exibidas na tela do usuário para auxiliá-lo no processo, assim como o escaneamento da opção digitada para que seja possível executar a determinada ação desejada.
 
 Em relação às dificuldades encontradas durante o desenvolvimento do projeto/código, é possível dizer que o principal desafio foi encontrar uma forma de ler as posições durante os deslizamentos e os valores entre os novos limites estabelecidos. Uma solução válida encontrada foi a criação de cinco contadores diferentes (C1, C2, C5, C7 e C8), um para cada dígito, e incrementar 1 ao valor anterior ao término do loop “for” do deslizamento. Ao final de todo o processo, os contadores são comparados com os valores estabelecidos para a combinação correta. Se forem semelhantes, o cofre é aberto e uma mensagem de sucesso é exibida a tela do usuário; caso contrário, o usuário ganha uma nova tentativa e é forçado a reiniciar o processo de abertura do cofre (até o limite de 3 tentativas). A senha/combinação correta para a abertura do cofre, em nosso caso, foi definida com 4 deslizamentos, sendo eles: inicialmente da posição 10 (inicial) para a posição 4, da posição 4 para a posição 19, da posição 19 para a posição 24, e, por fim, da posição 24 novamente para a posição 19. Ao término dos deslizamentos, a combinação final correta encontrada e definida para a abertura do cofre é: 512376, isto é, os números 1, 2, 5, 7 e 8 apareceram, respectivamente, 5, 12, 3, 7 e 6 vezes ao total.
+
+
+
+PRIMEIRO SEMESTRE- ENGENHARIA DE COMPUTAÇÃO
+
 
 
 
